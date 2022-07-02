@@ -19,34 +19,34 @@
                 <img src="img/logo.png" alt="logo"class="d-inline-block align-text-top">
             </a>
             <div class="d-flex align-items-center">
-                <p class="me-2 mt-2">Already have an account?</p>
-                <button class="btn btn-outline-primary"><a href="sign-in.html" class="text-decoration-none"> Login</a></button>
+                <p class="mt-2 col-lg-10 text-muted">Already have an account?</p>
+                <a href="sign-in.html" class="ms-2 btn btn-outline-primary col-lg-4 fw-bold text-decoration-none"> Login</a>
             </div>
         </div>
     </nav>
-    <section>
+    <section id="signup">
         <div class="container">
             <div class="rounded-3 d-flex row mt-5 justify-content-around align-items-start">
                <!--<div class="position-absolute top-50 start-50 translate-middle">-->
-                    <div class="col-lg-5  py-5 px-4 rounded-3" style="background:#D4E4FB; opacity: 0.5; box-shadow: 0px 12px 90px rgba(0, 0, 0, 0.1);">
+                    <div class="col-lg-5  py-5 px-4 rounded-3" id="signup-form" style="background:#D4E4FB; opacity: 0.5; box-shadow: 0px 12px 90px rgba(0, 0, 0, 0.1);">
                         <div class="px-5 py-3 rounded-3">
                             <h2 class="text-center fw-bold fs-2">Let's Get you Started!</h2>
                             <form class="row">
-                                <div>
-                                    <a href="signup_google.html" class="btn btn-light bg-light rounded col-lg-12 fw-bold px-5 py-3 my-3"><span><img class="mx-2" src="img/Group.png"></span>Join with Google</a>
+                                <div id="signup-with-google">
+                                    <a href="signup_google.html" class="btn btn-light bg-light rounded col-lg-12 col-md-12 fw-bold px-5 py-3 my-3"><span><img class="mx-2" src="img/Group.png"></span>Join with Google</a>
                                 </div>
-                                    <div class="text">
+                                    <div id="full-name">
                                     <input class="form-control mb-3 py-3" type="text" placeholder="Trafford Tecnology" required>
                                 </div>
-                                <div class="email-form mb-3">
+                                <div class="your-email mb-3">
                                      <input class="form-control py-3" type="text" placeholder="traffordtecnology@gmail.com" required>
                                 </div>
-                                <div class="password-form mb-3 icon-wrap position-relative">
+                                <div class="your-password mb-3 icon-wrap position-relative">
                                     <input type="password" class="form-control border-0 py-3 text-muted" placeholder="Password" id="password">
                                     <i class="bi bi-eye-slash icon fs-5 position-absolute" style="top: 25%; right: 5%; cursor: pointer; visibility: hidden;" id="toggle-password"></i>
                                 </div>
-                                <div class="submit-form">
-                                    <button class="btn-primary disabled py-3 btn-lg col-12 px-4 my-3"><a href="sign-up-success.html" class=" text-white text-decoration-none">Join Now</a></button>
+                                <div class="submit-btn">
+                                    <button class="btn py-3 btn-lg col-12 px-4 my-3" id="light-blue-btn"><a href="sign-up-success.html" class=" text-white text-decoration-none">Join Now</a></button>
                                 </div>
                             </form>
                             <div class="text-start d-flex">
@@ -61,8 +61,8 @@
                         </div>
                     </div>
                <!-- </div>-->
-                <div class="col-lg-3 me-5">
-                    <img class="form-bg" src="img/picture.png">
+                <div class="col-lg-5 me-5" id="sign-up-image">
+                    <img class="form-bg" src="img/picture.png" alt="">
                 </div>
             </div>
         </div>
