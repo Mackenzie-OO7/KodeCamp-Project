@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-#light-blue-btn {
-    background: #6FA4F1;
-    border: #6FA4F1;
-}
-
 /* Mobile screen */
 @media (max-width: 426px) {
     .form-bg {
