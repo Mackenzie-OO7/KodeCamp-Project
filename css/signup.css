@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
 }
 
+#light-blue-btn {
+    background: #6FA4F1;
+    border: #6FA4F1;
+}
 
 /* Mobile screen */
 @media (max-width: 426px) {
@@ -20,4 +23,3 @@
         display: none;
     }    
 }
-
