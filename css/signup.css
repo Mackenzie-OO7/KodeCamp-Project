@@ -14,7 +14,7 @@
 }
 
 /* Tablet screen */
-@media (min-width: 425px) and (max-width: 991px) {
+@media (min-width: 425px) and (max-width: 760px) {
     .form-bg {
         display: none;
     }    
