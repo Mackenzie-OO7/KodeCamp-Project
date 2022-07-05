@@ -19,7 +19,7 @@
 /* Mobile screen */
 @media (max-width: 350px) {
     #navtext{
-        display: none;
+        font-size: 15px;
     }
 
 }
