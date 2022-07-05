@@ -18,7 +18,7 @@
 
 /* Mobile screen */
 @media (max-width: 350px) {
-    #navtext{
+    #navtext, #join{
         font-size: 15px;
     }
 
