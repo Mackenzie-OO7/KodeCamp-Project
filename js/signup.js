@@ -43,7 +43,7 @@ function changeButtonColor() {
 
 
 
-$('div[id="submit-btn"]').click(function() {
+$('a[id="signup"]').click(function() {
     if($('input[type="password"]').val().length < 8) {
         alert('Minimum length = 8');
     } else {
