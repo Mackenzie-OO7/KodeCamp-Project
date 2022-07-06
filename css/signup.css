@@ -30,6 +30,9 @@
     #bottom-text{
         font-size: 10px;
     }
+    #account{
+        margin-top: 0.5rem;
+    }
 }
 
 /* Tablet screen */
